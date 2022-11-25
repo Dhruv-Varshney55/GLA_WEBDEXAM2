@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar h1{
+    display: inline-block;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+}
+.left{
+    margin-left: 170px;
+    color: white;
+}
+.left i{
+    font-size: 25px;
+}
+.right{
+    margin-left: 600px;
+}
+.right{
+    padding: 30px;
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
+.right a:hover{
+    color: greenyellow;
+}
+.middle::before{
+    content: "";
+    background: url(/Images/WhatsApp\ Image\ 2022-11-25\ at\ 21.11.26.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.middle h1{
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 46px;
+    position: relative;
+    bottom: 250px;
+}
+.middle img{
+    height: 500px;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+.middle a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 15px;
+    position: relative;
+    left: 570px;
+    bottom: 230px;
+    border-radius: 20px;
+}
+.imag{
+    display: flex;
+    justify-content: center;
+}
+.imag img{
+    padding: 20px;
+}
+.blank h1{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    font-size: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    width: 100%;
+}
+.logo{
+    width: 100px;
+    height:33px;
+}
+ul{
+    list-style: none;
+}
+.first{
+    color: rgb(182, 177, 177);
+    font-size: 16px;
+}
+ul li a{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;    
+}
+ul li a:hover{
+    color: yellow;
+}
+.item5 img{
+    width: 40px;
+}
+.item5 ul li{
+    display: inline-block;
+    margin: 2px;
+}
+ul li a{
+    color: white;
+    font-size: 10px;
+    text-decoration: none;    
+}
